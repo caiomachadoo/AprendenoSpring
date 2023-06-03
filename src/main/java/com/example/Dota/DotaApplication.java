@@ -13,8 +13,8 @@ public class DotaApplication {
 		SpringApplication.run(DotaApplication.class, args);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/ola")
 	public String ola() {
-		return "Hello World";
+		return "Caio zika";
 	}
 }
